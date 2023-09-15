@@ -1,0 +1,23 @@
+Ce passage aborde le modèle MVVM (Modèle-Vue-ViewModel) et sa signification en tant que modèle de présentation dans le contexte des applications WPF (Windows Presentation Foundation). Il fournit également un contexte historique en mentionnant d'autres modèles de présentation tels que le MVC (Modèle-Vue-Contrôleur) et le MVP (Modèle-Vue-Présentateur). Voici un résumé :
+
+Introduction aux modèles de présentation : Le passage commence par mentionner l'histoire des modèles de présentation, qui comprend le MVC (Modèle-Vue-Contrôleur) introduit en 1979 et le MVP (Modèle-Vue-Présentateur) des années 90. Ces modèles visent à améliorer la maintenabilité et la testabilité des applications.
+
+Modèles MVC et MVP : Bien que le MVC et le MVP soient brièvement mentionnés, le texte précise que ces modèles ne font pas partie du champ d'application du cours, mais sont mentionnés pour élargir la compréhension.
+
+Mise au point sur le MVVM : Le principal objectif du cours porte sur le modèle MVVM. Il souligne que le MVVM a été introduit dans les années 80 et modernisé en 2005, spécifiquement conçu pour WPF.
+
+Adoption du MVVM dans WPF : Le passage explique que le MVVM convient parfaitement à WPF en raison de son puissant sous-système de liaison de données, de ses commandes, de ses propriétés de dépendance et de ses déclencheurs. Il permet une grande testabilité et maintenabilité en séparant la logique de présentation de la logique métier.
+
+Avantages du MVVM : Le MVVM sépare le code spécifique à l'interface utilisateur de la logique métier, ce qui facilite l'ajout de nouvelles exigences et de modifications. Il simplifie également l'isolation des bugs et favorise une architecture en couches avec des responsabilités de composants bien définies. Le passage note que le test du code lié à l'interface utilisateur est difficile, mais le MVVM permet de tester les View Models.
+
+Nécessité de la séparation : Le passage insiste sur le fait que la séparation de la logique métier est une condition nécessaire mais non suffisante pour obtenir une conception testable.
+
+Réutilisabilité du code : Le MVVM facilite la réutilisation du code, en particulier pour les Modèles, les Vues et les View Models. La réutilisabilité des Modèles est mise en avant comme particulièrement bénéfique.
+
+Base de code organisée : Un code bien organisé est plus facile à comprendre, et le MVVM contribue à cela en séparant les composants en fonction de leurs responsabilités.
+
+Indépendance de la plate-forme : Le MVVM n'est pas dépendant de la plate-forme et peut être appliqué à diverses plateformes basées sur XAML, notamment Silverlight, WPF et UWP.
+
+Prochaines étapes : Le passage se termine en mentionnant que le cours approfondira les éléments constitutifs du modèle MVVM.
+
+En résumé, ce passage présente le modèle MVVM, son contexte historique et ses avantages, notamment dans le contexte des applications WPF. Il met en avant la manière dont le MVVM favorise la séparation du code, la testabilité, la maintenabilité et la réutilisabilité du code, ce qui en fait un choix populaire pour le développement lié à l'interface utilisateur.

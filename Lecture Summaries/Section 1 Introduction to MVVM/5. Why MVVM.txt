@@ -1,0 +1,23 @@
+This passage discusses the MVVM (Model-View-ViewModel) pattern and its significance as a presentational pattern in the context of WPF (Windows Presentation Foundation) applications. It also provides historical context by mentioning other presentational patterns like MVC (Model View Controller) and MVP (Model View Presenter). Here's a summary:
+
+Introduction of Presentational Patterns: The passage begins by mentioning the history of presentational patterns, which includes MVC (Model View Controller) introduced in 1979 and MVP (Model View Presenter) from the 90s. These patterns aim to enhance maintainability and testability in applications.
+
+MVC and MVP Patterns: While MVC and MVP are briefly mentioned, the text clarifies that these patterns are outside the scope of the course but are mentioned to broaden understanding.
+
+Focus on MVVM: The primary focus of the course is on the MVVM pattern. It highlights that MVVM was introduced in the 80s and modernized in 2005, specifically tailored for WPF.
+
+MVVM Adoption in WPF: The passage explains that MVVM is well-suited for WPF due to its powerful data binding subsystem, commands, dependency properties, and triggers. It allows for high testability and maintainability by separating presentation logic from business logic.
+
+Benefits of MVVM: MVVM separates UI-specific code from business logic, making it easier to accommodate new requirements and changes. It also simplifies bug isolation and promotes a layered architecture with well-defined component responsibilities. The passage notes that testing UI-related code is challenging, but MVVM allows for the testing of View Models.
+
+Necessity of Separation: The passage emphasizes that separating business logic is a necessary but not sufficient condition for achieving a testable design.
+
+Code Reusability: MVVM facilitates code reuse, especially for Models, Views, and View Models. Reusability of Models is highlighted as particularly beneficial.
+
+Organized Code Base: Well-organized code is easier to understand, and MVVM helps in achieving this by separating components based on their responsibilities.
+
+Platform Independence: MVVM is not platform-dependent and can be applied to various XAML-based platforms, including Silverlight, WPF, and UWP.
+
+Upcoming Focus: The passage concludes by mentioning that the course will delve deeper into the building blocks of the MVVM pattern.
+
+In summary, this passage introduces the MVVM pattern, its historical context, and its advantages, particularly in the context of WPF applications. It highlights how MVVM promotes code separation, testability, maintainability, and code reusability, making it a popular choice for UI-boundary development.
