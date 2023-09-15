@@ -1,0 +1,21 @@
+Ce passage met en lumière les défis liés à la maintenance à long terme de grandes applications logicielles et souligne l'importance de la maintenabilité et de la testabilité pour relever ces défis. Il met en avant les points suivants :
+
+Défis de la maintenance à long terme : Le passage reconnaît les difficultés auxquelles sont confrontés les développeurs lors de la maintenance de grandes applications au fil du temps, décrivant comment les bases de code ont tendance à devenir désordonnées et difficiles à gérer, ce qui entraîne des frustrations dans le projet et un risque d'échec potentiel.
+
+Accumulation de la dette technique : Il mentionne l'accumulation de la dette technique comme un problème courant dans les projets logiciels, entraînant une perte de contrôle et des problèmes de maintenabilité. De nombreux projets ont échoué en raison de ces problèmes.
+
+Importance de la maintenabilité : Le texte souligne le rôle critique de la maintenabilité pour déterminer la santé globale d'un projet logiciel. Il laisse entendre qu'un manque de maintenabilité peut conduire à l'échec du projet.
+
+La testabilité comme composant clé : Le passage met en avant l'importance de la testabilité, en particulier des tests automatisés tels que les tests unitaires. Il suggère que la testabilité est un objectif principal dans la conception architecturale.
+
+Relation entre la maintenabilité et la testabilité : Il affirme que la maintenabilité est étroitement liée à la testabilité, laissant entendre qu'une application qui ne peut pas être efficacement testée sera probablement difficile à maintenir à long terme.
+
+Séparation des préoccupations : Le texte introduit le principe de la Séparation des Préoccupations comme moyen de décomposer une application en composants indépendants. Il explique comment ce principe sous-tend le modèle MVVM.
+
+MVVM et applications bien structurées : Le modèle MVVM est présenté comme un moyen d'obtenir des applications bien structurées en appliquant le principe de la Responsabilité Unique pour séparer efficacement les préoccupations.
+
+Modèles architecturaux pour la pérennité : Le passage conclut en suggérant que l'application de modèles architecturaux, comme le MVVM, à la frontière de l'interface utilisateur (UI) d'une application est essentielle pour la survie à long terme d'un projet.
+
+La popularité du MVVM dans WPF : Il laisse entendre la popularité du modèle MVVM dans les applications WPF, suggérant qu'il résout bon nombre des défis mentionnés précédemment.
+
+Dans l'ensemble, ce passage met en avant l'importance de la maintenabilité, de la testabilité et des modèles architecturaux pour assurer le succès à long terme des projets logiciels, en particulier dans le contexte des applications WPF.
