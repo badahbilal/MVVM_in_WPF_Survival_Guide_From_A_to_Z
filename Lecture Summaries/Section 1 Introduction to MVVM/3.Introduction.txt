@@ -1,0 +1,27 @@
+The lecture titled "MVVM in WPF Survival Guide from A to Z" is an introductory overview of the course presented by Elias Fofanov, also known as EngineerSpock. The lecture covers the following key points:
+
+Course Introduction: The course focuses on MVVM (Model-View-ViewModel), which is an essential architectural pattern for building enterprise-level WPF (Windows Presentation Foundation) applications.
+
+Target Audience: The course is designed for students who are familiar with the WPF framework but lack experience in building real-world WPF applications. It can also benefit those who already have experience with MVVM-based WPF applications and want a deeper understanding of MVVM frameworks.
+
+Course Topics: The course is comprehensive and covers various topics in MVVM development, including:
+
+Connecting Views and ViewModels, with discussions on View-First and ViewModel-First approaches.
+Support for Design-Time Data in applications.
+Configuration and usage of an IoC (Inversion of Control) container, specifically Castle.Windsor, within a WPF application.
+Organizing communication between Views and ViewModels, including the use of commands, attached behaviors, blend behaviors, and a static message bus for component communication.
+Navigation techniques, including hierarchical UI composition and handling modal dialogs. The lecture emphasizes parameterized ViewModels for passing data to constructors.
+Understanding Models and implementing validation for domain objects.
+A brief overview of MVVM toolkits, with a closer look at Caliburn.Micro.
+An additional topic on unit testing, including demonstrations of writing unit tests for ViewModels.
+Course Structure: The lecture outlines that the course begins with an introductory module that covers the theoretical foundations of MVVM. It discusses concepts such as maintainability, testability, separation of concerns, and the single responsibility principle. It also explains the essence of MVVM and its building blocks.
+
+Services in MVVM: The lecture briefly touches on the role of services in MVVM-based applications.
+
+Monolithic Approach: An example of an application developed without MVVM, where code-behind is used extensively, is presented to illustrate the problems associated with a monolithic approach.
+
+Downsides of MVVM in WPF: The lecture acknowledges that even MVVM has its downsides and discusses some of the challenges associated with its implementation in the WPF platform.
+
+Next Lecture: The lecture concludes by indicating that the next lecture will delve into the issue of application maintenance.
+
+Overall, this lecture serves as an orientation for the course, providing an overview of the topics to be covered and the rationale behind studying MVVM in WPF application development. It emphasizes both theoretical understanding and practical application throughout the course.

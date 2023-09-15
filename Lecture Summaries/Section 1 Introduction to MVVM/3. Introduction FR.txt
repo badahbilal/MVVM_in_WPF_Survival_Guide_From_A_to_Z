@@ -1,0 +1,31 @@
+La conférence intitulée "MVVM in WPF Survival Guide from A to Z" est une présentation introductive du cours présenté par Elias Fofanov, également connu sous le nom d'EngineerSpock. La conférence couvre les points clés suivants :
+
+Introduction au cours : Le cours se concentre sur le MVVM (Modèle-Vue-ViewModel), qui est un modèle architectural essentiel pour la création d'applications WPF (Windows Presentation Foundation) de niveau entreprise.
+
+Public cible : Le cours est conçu pour les étudiants qui sont familiers avec le framework WPF mais qui n'ont pas d'expérience dans la création d'applications WPF du monde réel. Il peut également bénéficier à ceux qui ont déjà de l'expérience avec des applications WPF basées sur le MVVM et qui souhaitent approfondir leur compréhension des frameworks MVVM.
+
+Sujets du cours : Le cours est complet et couvre divers sujets dans le développement MVVM, notamment :
+
+La connexion entre les Vues et les ViewModels, avec des discussions sur les approches View-First et ViewModel-First.
+La prise en charge des données au moment de la conception dans les applications.
+La configuration et l'utilisation d'un conteneur IoC (Inversion of Control), en l'occurrence Castle.Windsor, dans une application WPF.
+L'organisation de la communication entre les Vues et les ViewModels, y compris l'utilisation de commandes, de comportements attachés, de comportements Blend et d'un bus de messages statique pour la communication entre les composants.
+Les techniques de navigation, y compris la composition hiérarchique de l'interface utilisateur et la gestion des boîtes de dialogue modales. La conférence met l'accent sur les ViewModels paramétrés pour transmettre des données aux constructeurs.
+La compréhension des Modèles et la mise en place de la validation pour les objets du domaine.
+Un bref aperçu des boîtes à outils MVVM, avec un examen plus approfondi de Caliburn.Micro.
+Un sujet supplémentaire sur les tests unitaires, comprenant des démonstrations de l'écriture de tests unitaires pour les ViewModels.
+Structure du cours : La conférence indique que le cours commence par un module introductif qui couvre les fondements théoriques du MVVM. Elle aborde des concepts tels que la maintenabilité, la testabilité, la séparation des préoccupations et le principe de la responsabilité unique. Elle explique également l'essence du MVVM et ses composants.
+
+Services dans le MVVM : La conférence effleure brièvement le rôle des services dans les applications basées sur le MVVM.
+
+Approche monolithique : Un exemple d'application développée sans MVVM, où le code-behind est largement utilisé, est présenté pour illustrer les problèmes liés à une approche monolithique.
+
+Inconvénients du MVVM dans WPF : La conférence reconnaît que même le MVVM a ses inconvénients et discute de certains des défis associés à sa mise en œuvre dans la plate-forme WPF.
+
+Prochaine conférence : La conférence conclut en indiquant que la prochaine conférence se penchera sur la question de la maintenance de l'application.
+
+Dans l'ensemble, cette conférence sert d'orientation pour le cours, fournissant un aperçu des sujets à aborder et de la justification de l'étude du MVVM dans le développement d'applications WPF. Elle met l'accent à la fois sur la compréhension théorique et l'application pratique tout au long du cours.
+
+
+
+
