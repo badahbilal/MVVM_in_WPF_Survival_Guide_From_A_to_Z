@@ -1,0 +1,26 @@
+Ce passage décompose les rôles et responsabilités des composants du modèle MVVM (Modèle-Vue-ViewModel) dans les applications WPF (Windows Presentation Foundation). Voici un résumé des principaux points :
+
+Vues :
+
+Les Vues sont responsables de la présentation des données à l'écran.
+Elles sont généralement définies comme des fenêtres (Windows), des pages (Pages) ou des contrôles utilisateur (User Controls).
+Les Vues doivent rester simples et ne pas contenir de logique métier.
+Le code-behind dans les Vues doit être minimal, contenant principalement des appels au constructeur et à InitializeComponent.
+L'objectif est de garder les Vues exemptes de logique et de code complexes pour faciliter les tests.
+ViewModels (Modèles de Vue) :
+
+Les ViewModels servent de médiateurs entre les Vues et les Modèles.
+Ils sont responsables de l'exposition des données à afficher dans les Vues.
+Les ViewModels communiquent avec les Vues grâce à des mécanismes de liaison de données.
+Ils notifient les Vues des modifications de données en utilisant l'interface INotifyPropertyChanged.
+Les ViewModels peuvent effectuer la préparation des données, mais ne doivent pas inclure d'éléments liés à l'interface utilisateur comme des couleurs ou des pinceaux.
+Ils peuvent contenir une certaine logique métier, mais ne doivent pas devenir excessivement complexes.
+Les ViewModels interagissent avec les Modèles pour exécuter la logique métier, et ils peuvent également gérer la navigation et déclencher des boîtes de dialogue.
+Modèles :
+
+Les Modèles représentent différents types d'objets et peuvent être des objets simples de type CLR (POCO) ou des modèles de domaine avec une logique métier complexe.
+Les Modèles exposent des données qui peuvent être affichées dans les Vues et qui peuvent éventuellement être modifiées par les utilisateurs.
+Les données sont souvent récupérées depuis un stockage persistant.
+Les Modèles peuvent contenir une logique métier sous forme de propriétés calculées, de règles de validation et de logique personnalisée.
+Ils peuvent implémenter les interfaces INotifyPropertyChanged ou INotifyDataErrorInfo pour faciliter la synchronisation et la validation des données.
+Dans l'ensemble, le passage explique les rôles distincts des Vues, des ViewModels et des Modèles dans le modèle MVVM, en mettant l'accent sur l'importance de maintenir les Vues simples et séparées de la logique métier. Il aborde également les approches de test pour les Vues et la nécessité de refactorer les ViewModels s'ils deviennent trop complexes. Enfin, il mentionne brièvement que les ViewModels deviennent souvent le contexte de données des Vues, permettant la liaison de données.

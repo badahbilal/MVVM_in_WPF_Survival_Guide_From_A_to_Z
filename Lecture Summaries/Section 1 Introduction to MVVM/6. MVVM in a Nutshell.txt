@@ -1,0 +1,26 @@
+This passage breaks down the roles and responsibilities of the components in the MVVM (Model-View-ViewModel) pattern in WPF (Windows Presentation Foundation) applications. Here's a summary of the main points:
+
+Views:
+
+Views are responsible for presenting data on the screen.
+They are typically defined as Windows, Pages, or User Controls.
+Views should remain simple and not contain business logic.
+Code-behind in Views should be minimal, primarily containing constructor and InitializeComponent calls.
+The goal is to keep Views free of complex logic and code to facilitate testing.
+ViewModels:
+
+ViewModels act as mediators between Views and Models.
+They are responsible for exposing data to be displayed in Views.
+ViewModels communicate with Views through data binding mechanisms.
+They notify Views of data changes using the INotifyPropertyChanged interface.
+ViewModels can perform data preparation but should not include UI-related elements like colors or brushes.
+They may contain some business logic but should not become overly complex.
+ViewModels interact with Models to execute business logic, and they can also handle navigation and trigger dialogs.
+Models:
+
+Models represent different forms of objects and can be plain CLR objects (POCOs) or domain models with complex business logic.
+Models expose data that can be displayed in Views and may potentially be modified by users.
+Data is often retrieved from persistent storage.
+Models can contain business logic in the form of computed properties, validation rules, and custom logic.
+They may implement INotifyPropertyChanged or INotifyDataErrorInfo interfaces to facilitate data synchronization and validation.
+Overall, the passage explains the distinct roles of Views, ViewModels, and Models in the MVVM pattern, emphasizing the importance of keeping Views simple and separate from business logic. It also touches on testing approaches for Views and the need to refactor ViewModels if they become too complex. Finally, it briefly mentions that ViewModels often become the Data Context for Views, allowing for data binding.
